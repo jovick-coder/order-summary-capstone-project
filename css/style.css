@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.main-section{
+    background-image: url("../images/pattern-background-desktop.svg");
+ background-color:hsl(225, 100%, 94%);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ /* background-position: center; */
+ height: 100vh;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+    /* border: solid; */
+    background-color: #fff;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    height: 90vh;
+    max-height: 560px;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+}
+h3,b{
+    color: hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.card-top-img{
+    width: 100%;
+}
+.card-top-img img{
+    width: 100%;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+}
+.card-text .text{
+   margin: 10px 10%;
+}
+.card-text .down-link{
+    /* color: hsl(222, 12%, 49%); */
+    text-decoration: none;
+    /* font-family: 'Red Hat Display', sans-serif; */
+
+}
+.card-text a:hover{
+    color: hsl(223, 47%, 23%);
+    
+}
+.price-div{
+    /* border: solid; */
+ /* background-color: hsl(224, 23%, 55%); */
+ background-color:hsl(225, 57%, 97%);
+display: flex;
+height: 100px;
+align-items: center;
+justify-content: space-around;
+margin: 20px;
+border-radius: 10px;
+}
+.price-div a{
+text-decoration: underline;
+color: hsl(245, 75%, 52%);
+}
+.price-div a:hover{
+text-decoration: none;
+color: hsl(245, 75%, 52%);
+}
+
+.price-div .left{
+    /* margin: auto; */
+    /* border: solid; */
+    align-self: center;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
+}
+.btn{
+    /* display: block; */
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    height: 40px ;
+    border:none;
+    border-radius: 5px;
+    margin:  20px;
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(245, 91%, 66%);
+
+}
