@@ -21,11 +21,11 @@ flex-direction: column;
 .card{
     /* border: solid; */
     background-color: #fff;
-    width: 350px;
+    width: 400px;
     border-radius: 20px;
     text-align: center;
     height: 90vh;
-    max-height: 560px;
+    max-height: 600px;
     margin: auto;
     color: hsl(224, 23%, 55%);
 }
@@ -46,8 +46,12 @@ h1,b{
     border-top-left-radius:15px ;
     border-top-right-radius:15px ;
 }
+.card-text h1{
+    margin-top: 30px;
+}
+
 .card-text .text{
-   margin: 10px 10%;
+   margin: 20px 10%;
 }
 .card-text .down-link{
     /* color: hsl(222, 12%, 49%); */
@@ -106,3 +110,7 @@ color: hsl(245, 75%, 52%);
     background-color: hsl(245, 91%, 66%);
 
 }
+
+@media  (max-width: 375px) {
+  
+  }
