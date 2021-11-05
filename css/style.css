@@ -29,6 +29,9 @@ flex-direction: column;
     margin: auto;
     color: hsl(224, 23%, 55%);
 }
+.card:hover{
+    box-shadow: 1px  1px 10px  hsl(224, 23%, 55%);
+}
 
 h1,b{
     color: hsl(223, 47%, 23%);
