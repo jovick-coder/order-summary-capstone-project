@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main-section{
     background-image: url("../images/pattern-background-desktop.svg");
@@ -10,10 +11,12 @@ body{
  background-repeat: no-repeat;
  background-attachment: fixed;
  /* background-position: center; */
+ background-size: 100vw;
  height: 100vh;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
+flex-direction: column;
 }
 .card{
     /* border: solid; */
@@ -26,6 +29,7 @@ flex-wrap: wrap;
     margin: auto;
     color: hsl(224, 23%, 55%);
 }
+
 h3,b{
     color: hsl(223, 47%, 23%);
     font-family: 'Red Hat Display', sans-serif;
@@ -45,6 +49,7 @@ h3,b{
 .card-text .down-link{
     /* color: hsl(222, 12%, 49%); */
     text-decoration: none;
+    font-weight: bold;
     /* font-family: 'Red Hat Display', sans-serif; */
 
 }
