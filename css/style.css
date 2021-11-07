@@ -101,7 +101,6 @@ color: hsl(245, 75%, 52%);
     border:none;
     border-radius: 10px;
     margin:  20px;
-    margin-top: -40px;
     color: white;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, .5);
     cursor: pointer;
