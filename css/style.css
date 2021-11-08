@@ -25,7 +25,7 @@ flex-direction: column;
     height: 90vh;
     max-height: 600px;
     margin: auto;
-    color: hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 56%);
 }
 .card:hover{
     box-shadow: 1px  1px 10px  hsl(224, 23%, 55%);
