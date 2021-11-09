@@ -5,18 +5,20 @@ body{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .main-section{
     background-image: url("../images/pattern-background-desktop.svg");
- background-color:hsl(225, 100%, 94%);
- background-repeat: no-repeat;
- background-attachment: fixed;
- background-size: 100vw;
- height: 100vh;
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-flex-direction: column;
+    background-color:hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
 .card{
     background-color: #fff;
     width: 350px;
@@ -27,6 +29,7 @@ flex-direction: column;
     margin: auto;
     color: hsl(224, 23%, 56%);
 }
+
 .card:hover{
     box-shadow: 1px  1px 10px  hsl(224, 23%, 55%);
 }
@@ -34,16 +37,18 @@ flex-direction: column;
 h1,b{
     color: hsl(223, 47%, 23%);
     font-family: 'Red Hat Display', sans-serif;
-
 }
+
 .card-top-img{
     width: 100%;
 }
+
 .card-top-img img{
     width: 100%;
-    border-top-left-radius:15px ;
-    border-top-right-radius:15px ;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
+
 .card-text h1{
     margin-top: 20px;
 }
@@ -51,36 +56,39 @@ h1,b{
 .card-text .text{
    margin: 15px 10%;
 }
+
 .card-text .down-link{
     text-decoration: none;
-    font-weight: bolder;
-    color:hsl(217, 4%, 39%);
+    font-weight: bold;
+    color: hsl(217, 4%, 39%);
     /* font-family: 'Red Hat Display', sans-serif; */
+}
 
-}
 .card-text a:hover{
-    color: hsl(223, 47%, 23%);
-    
+    color: hsl(223, 47%, 23%);  
 }
+
 .price-div{
     /* border: solid; */
- /* background-color: hsl(224, 23%, 55%); */
- background-color:hsl(225, 100%, 98%);
-display: flex;
-height: 100px;
-align-items: center;
-justify-content: space-around;
-margin: 20px;
-border-radius: 10px;
+    /* background-color: hsl(224, 23%, 55%); */
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    border-radius: 10px;
 }
+
 .price-div a{
-text-decoration: underline;
-color: hsl(245, 75%, 52%);
-font-weight: bolder;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
 }
+
 .price-div a:hover{
-text-decoration: none;
-color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
 }
 
 .price-div .left{
@@ -93,6 +101,7 @@ color: hsl(245, 75%, 52%);
     width: 60%;
     justify-content: space-around;
 }
+
 .btn{
     /* display: block; */
     background-color: hsl(245, 75%, 52%);
@@ -105,9 +114,14 @@ color: hsl(245, 75%, 52%);
     box-shadow: 5px 10px 20px rgba(0, 0, 0, .5);
     cursor: pointer;
 }
+
 .btn:hover{
     background-color: hsl(245, 91%, 66%);
 
+}
+
+.down-link{
+    font-size: 14px;
 }
 
 @media only screen and (min-width:1440px){
